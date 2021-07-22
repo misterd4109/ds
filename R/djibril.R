@@ -12,6 +12,6 @@ djibril=function(x){
   # Résumé numérique
   data.frame(min=min(x),
              median=median(x),
-             mean=mean(),
+             mean=mean(x),
              max=max(x))
 }
